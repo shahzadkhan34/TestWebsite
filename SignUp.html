@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <link rel="stylesheet" type="text/css" href="design/style.css">
+  <meta charset="UTF-8">
+  <title>Sign Up Form</title>
+
+
+</head>
+<body>
+    <header>
+        
+        <h1> Faisal SHAHZAD</h1>   
+        <h3>Professor in YSchools</h3> 
+      <img id="logo" src="pictures/logo.png" >
+       
+                <nav>
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                        <li>
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a  href="#contact">Contact</a> 
+                        </li>
+                        <li>
+                            <a href="MyFristProject.html">My First Project</a> 
+                        </li>
+                        <li>
+                            <a href="LogIn.html">Login</a> 
+                        </li>
+                        <li>
+                            <a href="SignUp.html">Sign Up</a> 
+                        </li>
+                        <li >
+                            <a  href="Feedback.html">Feedback
+                            </a> 
+                        </li>
+
+                    </ul>
+                </nav>
+
+   </header>
+ 
+   <h2>Sign Up Form</h2>
+   <p>Fill in the form below to create an account on our website.</p>
+
+    <form>
+      
+        <fieldset id="personal_information">
+          <legend>Personal Information</legend>
+          <ol class="formlist">
+            <li>
+              <label for="name">Name</label>
+              <input type="text" name="name" class="formInput">
+            </li>
+            <li>
+                <label for="PhoneNumber">Phone Number</label>
+                <input type="text" name="PhoneNumber" class="formInput">
+             </li>
+             <li>
+                <label for="age">Age</label>
+                <input type="text" name="age" class="formInput">
+             </li>
+                  
+             <!--
+            <li>
+              <label for="priority">Priority</label>
+              <input type="range" min="0" max="10" 
+                     name="priority" value="0">
+            </li>
+        
+            
+            <li>
+              <label for="estimated_hours">Estimated Hours</label>
+              <input type="number" name="estimated_hours"
+                     min="0" max="1000">
+            </li>
+            -->
+            <li>
+              <label for="date_of_birth">Date of Birth</label>
+              <input type="date" name="date_of_birth" id="date_of_birth"
+                     value="2010-12-01" class="formInput">
+            </li>
+    
+            <li>
+              <label for="email">Email contact</label>
+              <input type="email" name="email" id="email" class="formInput">
+            </li>
+            
+           <!-- <li>
+              <label for="url">Staging URL</label>
+              <input type="url" name="url" id="url">
+            </li>
+            <li>
+              <label for="url">Staging URL</label>
+              <input type="url" name="url" id="url">
+            </li>
+        -->
+             
+           
+          
+          </ol>
+          
+        </fieldset>
+        <fieldset id="address_information">
+         <legend>Addreess Information</legend>
+          <ol class="formlist">
+            <li>
+              <label for="country">Country</label>
+              <input type="text" name="country" class="formInput">
+            </li>
+            <li>
+                <label for="city">City</label>
+                <input type="text" name="city" class="formInput">
+             </li>
+             <li>
+                <label for="streetnumber">Street Number</label>
+                <input type="text" name="streetnumber" class="formInput">
+             </li>      
+            <li>
+              <label for="postcode">Postal Code</label>
+              <input type="text" name="postcode" class="formInput" >
+            </li>                      
+            <li>
+              <input type="submit" class="submit" value="Submit">
+            </li>         
+          </ol>
+        </fieldset>
+    
+      </form>
+</body>
+</html>
+
